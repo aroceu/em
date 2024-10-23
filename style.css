@@ -1,0 +1,453 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background: #fff;
+	margin: 0;
+	font: normal 100%/160% 'PT Serif';
+	color: #333;
+	background-attachment: fixed;
+}
+
+#wrapper{
+	min-height: 100%;
+	 height: auto !important;
+	 height: 100%;
+	 margin-bottom: -60px; /* <- If you change this height... */
+	 position: relative;
+}
+
+#container{
+	margin: 3em auto;
+	width: 800px;
+}
+
+#hand, #bruise{
+	background: #111;
+	margin: 0 auto;
+	padding: 0.5em 0;
+}
+
+#hand, #push, #bruise{
+	height: 60px;   
+}
+
+#bruise{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+#ours{
+	background: url('covers.png');
+	background-size: 800px 240px;
+	height: 240px;
+	width: 800px;
+	margin: 4em auto;
+}
+
+ul#the{
+	text-transform: uppercase;
+	list-style-type: none;
+	-webkit-padding-start: 0!important;
+	text-align: center;
+}
+
+ul#the li{
+	display: inline-block;
+	width: 19%;
+}
+
+ul#the li a{
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font: normal 120% 'Playfair Display';
+	border-bottom: none;
+}
+
+ul#the a:hover{
+	font-style: italic;
+}
+
+.marlin{
+	margin: 0 auto 4em;
+}
+
+h1{
+	font: italic 250% 'Playfair Display';
+}
+
+h1.familiar, h1.pieces, h1.penetration, h1.march, h1.catch, h1.fannish, h1.painted, h1.exit, h1.creds{
+	text-align: center;
+	margin: 0 auto 1em;
+}
+
+#page h1:before, #page h1:after{
+	display: inline-block;
+	border-bottom: 1px solid #333;
+	margin: 0 0.5em 0 -55%;
+	vertical-align: middle;
+	content: "";    
+}
+
+h1.familiar:before, h1.familiar:after{
+	width: 30%;  
+}
+
+h1.pieces:before, h1.pieces:after, h1.catch:before, h1.catch:after{
+	width: 23.5%;
+}
+
+h1.penetration:before, h1.penetration:after{
+	width: 35%;
+}
+
+h1.march:before, h1.march:after{
+	width: 32.5%;
+}
+
+h1.fannish:before, h1.fannish:after{
+	width: 39%;  
+}
+
+h1.painted:before, h1.painted:after{
+	width: 18%;
+}
+
+h1.exit:before, h1.exit:after{
+	width: 33%;
+}
+
+h1.creds:before, h1.creds:after{
+	width: 20%;
+}
+
+h1.familiar:after, h1.pieces:after, h1.penetration:after, h1.march:after, h1.catch:after, h1.fannish:after, h1.painted:after, h1.exit:after, h1.creds:after{
+    margin: 0 -55% 0 0.5em!important;
+}
+
+h1.intriguing, h1.eduardo, h1.carbon{
+	text-align: right;
+}
+
+h1.mark, h1.in{
+	text-align: left;
+}
+
+h1.intriguing:before, h1.eduardo:before, h1.carbon:before{
+	display: inline-block;
+	border-bottom: 1px solid #333;
+	margin: 0 0.5em 0 -50%;
+	vertical-align: middle;
+	content: "";
+	text-align: center;
+}
+
+h1.intriguing:before{
+	width: 50%;
+}
+
+h1.eduardo:before{
+	width: 61%;
+}
+
+h1.in:after{
+	width: 76.5%;
+}
+
+h1.mark:after, h1.in:after{
+	display: inline-block;
+	border-bottom: 1px solid #333;
+	margin: 0 -55% 0 0.5em;;
+	vertical-align: middle;
+	content: "";
+	text-align: center;
+}
+
+h1.carbon:before{
+	width: 63%;
+}
+
+h1.mark:after{
+	width: 61%;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+#page h1{
+	margin-bottom: 1.5em;
+}
+
+h2{
+	font: normal 80% 'Arial Black';
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h2.possibilities, h2.prevails{
+	text-align: left;
+}
+
+h2.motion{
+	text-align: right;
+}
+
+a:link, a:visited{
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px solid #333;
+	font-weight: bold;
+}
+
+a:hover{
+color: #888;
+border-bottom: 1px solid #888;}
+
+strike{
+	color: #aaa;
+}
+
+blockquote{
+	background: #f4f4f4;
+	margin: 2em 0;
+	padding: 1em 2em;
+	border: #333 dotted 1px;
+	font: italic 120% 'PT Serif';
+	text-align: center;
+}
+
+.navback{
+	text-align: center;
+	margin: 3em auto;
+	width: 50%;
+}
+
+.navback a:link, .navback a:visited{
+	display: block;
+	text-align: center;
+	font: normal 130% 'Arial Black';
+	text-transform: uppercase;
+	border-bottom: none;
+	letter-spacing: -1px;
+	background: #111;
+	color: #fff;
+	border-bottom: 1px #fff dotted;
+}
+
+.navback a:hover{
+	color: #ccc;
+}
+
+.appendage ul a, .resources ul a{
+	font: normal 90%/160% 'Arial Black' !important;
+	background: #111;
+	color: #fff;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	border: 1px dotted #fff;
+	display: inline;
+	margin-right: 10px;
+}
+
+.appendage ul a:hover, .resources ul a:hover{
+	color: #ddd;
+}
+
+.appendage ul ul, .resources ul{
+	-webkit-padding-start: 0!important;
+}
+
+#page ul{
+	list-style-type: none;
+	font: normal 150%/160% 'Playfair Display';
+}
+
+#page ul li{
+	margin-bottom: 1em;
+}
+
+.appendage ul, .resources ul{
+	font: italic 120%/160% 'PT Serif' !important;
+}
+
+.resources li{
+	margin-bottom: 1.5em!important;
+}
+
+#page ul ul{
+	list-style-type: none;
+	font: normal 70%/160% 'PT Serif' !important;
+}
+
+#page ul ul li{
+	margin-top: 0.5em;
+}
+
+.timeline, .excuses, .relationship, .appendix, .catches, .reprise, .abstract, .type, .trees, .almost{
+	height: 240px;
+	width: 800px;
+	margin: 0 auto 4em;
+}
+
+.timeline{
+	background: url('http://otp.arose.nu/timeline/timeline.png');
+	background-size: 800px 240px;
+}
+
+.excuses{
+	background: url('http://otp.arose.nu/excuses/excuses.png');
+	background-size: 800px 240px;
+}
+
+.relationship{
+	background: url('http://otp.arose.nu/relationship/relationship.png');
+	background-size: 800px 240px;
+}
+
+.appendix{
+	background: url('http://otp.arose.nu/appendix/appendix.png');
+	background-size: 800px 240px;
+}
+
+.catches{
+	background: url('http://otp.arose.nu/appendix/catch.png');
+	background-size: 800px 240px;
+}
+
+.reprise{
+	background: url('http://otp.arose.nu/appendix/reprise.png');
+	background-size: 800px 240px;
+}
+
+.type{
+	background: url('http://otp.arose.nu/appendix/painted.png');
+	background-size: 800px 240px;
+}
+
+.trees{
+	background: url('http://otp.arose.nu/appendix/trees.png');
+	background-size: 800px 240px;
+}
+
+.almost{
+	background: url('http://otp.arose.nu/appendix/exit.png');
+	background-size: 800px 240px;
+}
+
+img.banner{
+	width: 800px;
+	height: 334px;
+	margin: 1em auto 0.5em;
+}
+
+p.intro{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	text-align: center;
+	padding: 1em 0;
+	font-family:'Playfair Display';
+	margin: 1em 0 1.5em;
+}
+
+#profile ul{
+	list-style-type: circle;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #f5f5f5;
+    border: 1px solid #333;
+    color: #333;
+    text-align: left;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: 15%;
+    margin-right: -60px;
+    font: normal 80% 'Playfair Display';
+    text-transform: lowercase;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+h3{
+	text-align: center;
+	font: italic 150% 'Playfair Display';
+	margin: 1em auto 1.5em;
+}
+
+h4{
+	font: normal 130%/1px 'Arial Black';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-bottom: 1px dotted #111;
+	margin: 2em 0;
+}
+
+u{
+	text-transform: lowercase;
+	text-decoration: none;
+	font: normal 100% 'Arial Black';
+}
+
+h5{
+	font: normal 160% 'Playfair Display';
+	margin: 1em auto 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.playlist{
+	width: 75%;
+	margin: 0 auto 2em;
+	background: #111;
+	color: #fff;
+	padding: 2em;
+}
+
+.playlist table td:nth-child(2){
+	content: "";
+	border-bottom: 1px dotted #fff;
+		width: 100%;
+}
+
+.playlist table td:nth-child(1){
+	float: left;
+	text-align: left;
+	font: italic 165%/20px 'Playfair Display';
+	text-transform: lowercase;
+	white-space:nowrap;
+}
+
+.playlist table td:nth-child(3){
+	text-align: right;
+	float: right;
+	width: 100%;
+	font-size: 100%;
+	white-space:nowrap;
+	text-transform: lowercase;
+	line-height: 14px;
+}
+
+span.sean{
+	font-size: 80%;
+	font-style: italic;
+	color: #aaa;
+}

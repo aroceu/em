@@ -15,9 +15,9 @@
 <div id="wrapper">
 
 <div id="hand"><ul id="the">
-	<li><a href="https://kingdra.net/em/timeline">Timeline.</a></li>
-	<li><a href="https://kingdra.net/em/excuses">Excuses.</a></li>
-	<li><a href="https://kingdra.net/em/relationship">Relationship.</a></li>
-	<li><a href="https://kingdra.net/em/appendix">Appendix.</a></li>
-	<li><a href="/">Clear.</a></li>
+	<li><a href="/timeline">Timeline.</a></li>
+	<li><a href="/excuses">Excuses.</a></li>
+	<li><a href="/relationship">Relationship.</a></li>
+	<li><a href="/appendix">Appendix.</a></li>
+	<li><a href="/index">Clear.</a></li>
 	</ul></div>

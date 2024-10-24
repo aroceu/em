@@ -11,6 +11,8 @@
 
 <p>Regardless, I am still quite proud of this website and especially its design and presentation, so I'm still invested in keeping it online. If nothing else, it looks pretty and still has some fannish-related resources, in case anyone else becomes as passionate as I was. So to those who may enjoy the content on this website: enjoy! I'm a big believer in archiving.</p>
 
+<p>If you're interested, you can also check out that one time I detailed <a href="https://aroceu.com/projects/tsn-timeline/">the entire timeline of The Social Network in chronological and storytelling format.</a>.</p>
+
 <p>On another note, I think that we should tell people we could write RPF of them as a threat. RPF is morally correct. Pseudo RPF too. </p>
 
 <hr style="margin: 2.5em auto; text-align: center; border-top: 1px solid; border-bottom: none; width: 70%;">

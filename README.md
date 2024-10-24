@@ -4,7 +4,7 @@ I created this webshrine&mdash;my first attempt at one, at least&mdash;during my
 
 Despite this, I'm quite satisfied with the design and how I'd planned on displaying the content if I'd written it. I'd only really written character analyses and other things that were more indulgent to me, but I like the idea that I would've written more insane narrative analyses for them as well. 
 
-And yes, I think this webshrine is praxis. IRL Zuck can suck it.
+However, I don't want to make it seem like my shipping a fictional Mark Zuckerberg with his ex-business partner is meant to support IRL Zuckerberg in any way. He can suck it. I like Jesse Eisenberg (and Andrew Garfield) better as people, anyway.
 
 ### features
 

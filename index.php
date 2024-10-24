@@ -58,8 +58,7 @@
 
 <p>... and, hopefully, fits that criteria.</p>
 
-<p class="navback"><a href="http://heart.arose.nu">dapple heart</a>
-<a href="http://arose.nu">portal</a></p>
+<p class="navback"><a href="http://aroceu.com">contact me</a></p>
 
 
 </div></div>

@@ -6,7 +6,7 @@ Despite this, I'm quite satisfied with the design and how I'd planned on display
 
 However, I don't want to make it seem like my shipping a fictional Mark Zuckerberg with his ex-business partner is meant to support IRL Zuckerberg in any way. He can suck it. I like Jesse Eisenberg (and Andrew Garfield) better as people, anyway.
 
-### features
+## features
 
 - Custom banners in the footer of every page.
 - Navigation in header/footer
